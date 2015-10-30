@@ -1,0 +1,33 @@
+{
+  "name": "express-etcd-session-store",
+  "version": "0.0.1",
+  "description": "Provide a session store on etcd for express apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/5minds/node-etcd-express-session.git"
+  },
+  "keywords": [
+    "session",
+    "express",
+    "etcd"
+  ],
+  "author": "Martin Moellenbeck <martin.moellenbeck@5minds.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/5minds/node-etcd-express-session/issues"
+  },
+  "homepage": "https://github.com/5minds/node-etcd-express-session#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "express-session": "^1.12.1",
+    "node-etcd": "^4.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "should": "^7.1.1"
+  }
+}
