@@ -1,6 +1,6 @@
 {
   "name": "express-etcd-session-store",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Provide a session store on etcd for express apps",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/5minds/express-etcd-session-store#readme",
   "dependencies": {
+    "async": "^1.5.0",
     "debug": "^2.2.0",
     "express-session": "^1.12.1",
     "node-etcd": "^4.2.1"
